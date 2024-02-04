@@ -7156,11 +7156,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\BackEnd\\PlaywrightTestC#\\SpecFlowPlaywrightTest\\SpecFlowPlaywrightTest\\SpecFlowPlaywrightTest.csproj",
+      "projectUniqueName": "D:\\Unity\\RootCodeTest\\ecs\\PlaywrightTestCSharp\\SpecFlowPlaywrightTest\\SpecFlowPlaywrightTest.csproj",
       "projectName": "SpecFlowPlaywrightTest",
-      "projectPath": "D:\\BackEnd\\PlaywrightTestC#\\SpecFlowPlaywrightTest\\SpecFlowPlaywrightTest\\SpecFlowPlaywrightTest.csproj",
+      "projectPath": "D:\\Unity\\RootCodeTest\\ecs\\PlaywrightTestCSharp\\SpecFlowPlaywrightTest\\SpecFlowPlaywrightTest.csproj",
       "packagesPath": "C:\\Users\\Ilyas\\.nuget\\packages\\",
-      "outputPath": "D:\\BackEnd\\PlaywrightTestC#\\SpecFlowPlaywrightTest\\SpecFlowPlaywrightTest\\obj\\",
+      "outputPath": "D:\\Unity\\RootCodeTest\\ecs\\PlaywrightTestCSharp\\SpecFlowPlaywrightTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ilyas\\AppData\\Roaming\\NuGet\\NuGet.Config",

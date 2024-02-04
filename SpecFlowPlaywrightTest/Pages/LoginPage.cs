@@ -25,7 +25,7 @@ public class LoginPage
     {
         await _txtUserName.FillAsync(userName);
         await _txtPassword.FillAsync(password);
+        await _btnLogin.ClickAsync();
     }
-
-    public async Task ClickAuthorize() => await _btnLogin.ClickAsync();
+    
 }

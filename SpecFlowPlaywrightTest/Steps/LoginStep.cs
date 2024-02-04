@@ -22,27 +22,27 @@ public sealed class LoginStep
 
 
     [Then(@"I authorize")]
-    public async void ThenIAuthorize()
+    public void ThenIAuthorize()
     {
-        await _loginPage.ClickAuthorize();
+        Console.WriteLine("authorize");
     }
 
     [Given(@"I click login link")]
-    public async void GivenIClickLoginLink()
+    public async Task GivenIClickLoginLink()
     {
         await _loginPage.ClickLogin();
     }
 
     [Given(@"I fill login details")]
-    public async void GivenIFillLoginDetails(Table table)
+    public async Task GivenIFillLoginDetails(Table table)
     {
         dynamic loginData = table.CreateDynamicInstance();
         await _loginPage.Login((string) loginData.USERNAME, (string) loginData.PASSWORD);
     }
 
     [Given(@"I navigate")]
-    public async void GivenINavigate()
+    public void GivenINavigate()
     {
-        await _page.GotoAsync("https://gallllery.com/");
+        _page.GotoAsync("https://gallllery.com");
     }
 }

@@ -15,7 +15,7 @@ namespace SpecFlowPlaywrightTest.Drivers
 
         private async Task<IPage> InitializePage()
         {
-            using var playwright = await Playwright.CreateAsync();
+             IPlaywright playwright = await Playwright.CreateAsync();
             
             _browser = await playwright.Firefox.LaunchAsync(new BrowserTypeLaunchOptions
             {
